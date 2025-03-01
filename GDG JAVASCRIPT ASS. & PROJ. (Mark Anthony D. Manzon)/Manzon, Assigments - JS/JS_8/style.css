@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #FF7E5F, #FEB47B, #FFB75E);
+}
+
+.header-Div {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.button-Div {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#counter-Div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#counter-ID {
+    padding: 20px;
+    background-color: purple;
+    text-align: center;
+    font-size: 5rem;
+    width: 250px;
+    border-radius: 15px;
+    color: violet;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-Div button {
+    padding: 10px 20px;
+    border-width: 5px;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 100px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#subtract-Button {
+    background-color: red;
+}
+
+#plus-Button {
+    background-color: blue;
+}
